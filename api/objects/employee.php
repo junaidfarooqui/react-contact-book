@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Creating Product Object
+ * Creating Employee Class
  *
  * @author Junaid Farooqui
  */
