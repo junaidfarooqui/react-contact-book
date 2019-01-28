@@ -2,7 +2,7 @@
 /**
  * Employee Read Method
  *
- * @author Junaid Farooqui <junaid.farooqui@alpha.pet>
+ * @author Junaid Farooqui
  */
 
 // required headers
@@ -24,8 +24,6 @@ $employees = new Employee($db);
 // query products
 $stmt = $employees->read();
 $num = $stmt->rowCount();
-
-
 
 // check if more than 0 record found
 if($num>0){
