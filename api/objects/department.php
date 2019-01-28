@@ -13,8 +13,6 @@ class Department{
     // object properties
     public $id;
     public $name;
-    public $description;
-    public $created;
 
     public function __construct($db){
         $this->conn = $db;
@@ -24,7 +22,7 @@ class Department{
     public function readAll(){
         //select all data
         $query = "SELECT
-                    id, name, description
+                    dept_no, dept_name
                 FROM
                     " . $this->table_name . "
                 ORDER BY
